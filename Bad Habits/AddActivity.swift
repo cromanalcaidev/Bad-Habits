@@ -15,8 +15,9 @@ struct AddActivity: View {
     @State private var activityName = ""
     @State private var activityDescription = ""
     @State private var type = "🤸‍♀️"
+    var timesUserDidIt = 0
     
-    var types = ["🎸", "🤸‍♀️", "🤓", "💼", "📚", "🌯", "🗺"]
+    var types = ["🎸", "🤸‍♀️", "🤓", "💼", "📚", "👩‍🍳", "🗺"]
     
     var body: some View {
         NavigationStack {

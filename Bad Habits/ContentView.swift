@@ -18,16 +18,26 @@ struct ContentView: View {
                         HStack {
                             VStack {
                                 Text("\(activity.activity)")
+                                    .font(.title3)
                                     .frame(maxWidth: .infinity, alignment: .leading)
 
 
                                 Text("\(activity.description)")
+                                    .foregroundColor(.secondary)
                                     .frame(maxWidth: .infinity, alignment: .leading)
                             }
                             
                             Spacer()
                             
                             Text("\(activity.type)")
+                                .font(.system(size: 30))
+                                .frame(maxWidth: .infinity, alignment: .center)
+                            
+                            NavigationLink("", value: activity)
+                            
+                        }
+                        .navigationDestination(for: Activity.self) { activity in
+                            ActivityDetailView()
                             
                         }
                     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C79EBA42BCED51C00DD3497 /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79EBA32BCED51C00DD3497 /* ActivityDetailView.swift */; };
 		7CABB0BA2BCDB30000FF666F /* Bad_HabitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABB0B92BCDB30000FF666F /* Bad_HabitsApp.swift */; };
 		7CABB0BC2BCDB30000FF666F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABB0BB2BCDB30000FF666F /* ContentView.swift */; };
 		7CABB0BE2BCDB30200FF666F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CABB0BD2BCDB30200FF666F /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C79EBA32BCED51C00DD3497 /* ActivityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
 		7CABB0B62BCDB30000FF666F /* Bad Habits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bad Habits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CABB0B92BCDB30000FF666F /* Bad_HabitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad_HabitsApp.swift; sourceTree = "<group>"; };
 		7CABB0BB2BCDB30000FF666F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				7CABB0B92BCDB30000FF666F /* Bad_HabitsApp.swift */,
 				7CABB0BB2BCDB30000FF666F /* ContentView.swift */,
+				7C79EBA32BCED51C00DD3497 /* ActivityDetailView.swift */,
 				7CABB0CB2BCDB7C400FF666F /* AddActivity.swift */,
 				7CABB0C92BCDB40300FF666F /* BadHabits_Model.swift */,
 				7CABB0BD2BCDB30200FF666F /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				7CABB0BC2BCDB30000FF666F /* ContentView.swift in Sources */,
 				7CABB0BA2BCDB30000FF666F /* Bad_HabitsApp.swift in Sources */,
 				7CABB0CC2BCDB7C400FF666F /* AddActivity.swift in Sources */,
+				7C79EBA42BCED51C00DD3497 /* ActivityDetailView.swift in Sources */,
 				7CABB0CA2BCDB40300FF666F /* BadHabits_Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

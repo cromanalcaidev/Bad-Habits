@@ -7,11 +7,12 @@
 
 import Foundation
 
-struct Activity: Codable, Identifiable {
+struct Activity: Codable, Identifiable, Hashable, Equatable {
     var id = UUID()
     let activity: String
     let description: String
     let type: String
+//    var timesUserDidIt: Int
 }
 
 @Observable
